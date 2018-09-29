@@ -1,0 +1,35 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "gunnertechcom-20180928175140-authRole",
+			"UnauthRoleArn": "arn:aws:iam::394764704107:role/gunnertechcom-20180928175140-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::394764704107:role/gunnertechcom-20180928175140-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "gunnertechcom-20180928175140-deployment",
+			"UnauthRoleName": "gunnertechcom-20180928175140-unauthRole",
+			"StackName": "gunnertechcom-20180928175140",
+			"StackId": "arn:aws:cloudformation:us-east-1:394764704107:stack/gunnertechcom-20180928175140/af1c4240-c368-11e8-b1b6-500c285ebe99"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/gunnertechcom-20180928175140-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-09-28T22:08:56.449Z",
+			"output": {
+				"CloudFrontSecureURL": "https://d2k30peini28ek.cloudfront.net",
+				"S3BucketSecureURL": "https://gunnertechcom-20180928175404--hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://gunnertechcom-20180928175404--hostingbucket.s3-website-us-east-1.amazonaws.com",
+				"CloudFrontDistributionID": "E2P6EEDD4YUXF5",
+				"Region": "us-east-1",
+				"HostingBucketName": "gunnertechcom-20180928175404--hostingbucket",
+				"CloudFrontDomainName": "d2k30peini28ek.cloudfront.net"
+			},
+			"lastPushDirHash": "Uyww0JVcJnzC/J6bI44yjcxoNb8="
+		}
+	}
+}

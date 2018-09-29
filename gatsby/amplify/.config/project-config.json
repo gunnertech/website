@@ -1,0 +1,20 @@
+{
+    "projectName": "gunnertechcom",
+    "projectPath": "/Users/cody/workspace/javascript/serverless/gunnertech.com/gatsby",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "/Users/cody/.nvm/versions/node/v8.9.4/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "public",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script develop"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/Users/cody/.nvm/versions/node/v8.9.4/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}
