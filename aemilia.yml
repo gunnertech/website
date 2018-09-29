@@ -9,6 +9,7 @@ build:
   phases:
     pre_build:
       commands: [
+          'ls .',
           'yarn install'
       ]
     build:
