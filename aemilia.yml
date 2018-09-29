@@ -1,6 +1,6 @@
 build:
   artifacts:
-    baseDirectory: /gatsby
+    baseDirectory: /gatsby/public
     discardPaths: true
     files:
       - '**/*'
@@ -9,7 +9,7 @@ build:
   phases:
     pre_build:
       commands: [
-          'npm install'
+          'cd gatsby && npm install'
       ]
     build:
       commands: ['npm run-script build']
