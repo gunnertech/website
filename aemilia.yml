@@ -9,10 +9,11 @@ build:
   phases:
     pre_build:
       commands: [
-          'cd gatsby && npm install'
+          'cd gatsby',
+          'yarn install'
       ]
     build:
-      commands: ['npm run-script build']
+      commands: ['yarn build']
     post_build:
       commands: []
 env:
