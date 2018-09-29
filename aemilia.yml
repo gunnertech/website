@@ -1,6 +1,6 @@
 build:
   artifacts:
-    baseDirectory: /gatsby/public
+    baseDirectory: /gatsby
     discardPaths: true
     files:
       - '**/*'
@@ -9,7 +9,6 @@ build:
   phases:
     pre_build:
       commands: [
-          'cd gatsby',
           'yarn install'
       ]
     build:
