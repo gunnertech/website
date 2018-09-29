@@ -13,7 +13,7 @@ build:
           'yarn install --cwd gatsby'
       ]
     build:
-      commands: ['yarn build']
+      commands: ['yarn build --cwd gatsby']
     post_build:
       commands: []
 env:
